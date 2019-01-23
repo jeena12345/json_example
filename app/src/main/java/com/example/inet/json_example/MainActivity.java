@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         txt1=findViewById(R.id.txt2);
         b1=findViewById(R.id.b1);
         rootRef = FirebaseDatabase.getInstance().getReference();
-        demoRef = rootRef.child("jeena").child("demo");
+        demoRef = rootRef.child("jeena1").child("demo");
         b1.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {

@@ -31,7 +31,13 @@ Button login;
 login.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
-        if (uname.getText().toString().equals()"jasim");
+        if (uname.getText().toString().equals("jasim"));
+        {
+             if(pwd.getText().toString().equals("123456"));
+             else{
+
+             }
+        }
         Intent intent=new Intent(this,);
     }
 });

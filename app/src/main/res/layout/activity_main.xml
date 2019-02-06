@@ -4,44 +4,4 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="39dp" />
-
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="60dp"
-        android:text="submit" />
-
-    <TextView
-        android:id="@+id/txt2"
-        android:layout_width="228dp"
-        android:layout_height="35dp"
-        android:layout_alignStart="@+id/b1"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="158dp"
-        android:text="TextView" />
-
-    <Button
-        android:id="@+id/fetch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="157dp"
-        android:layout_marginBottom="201dp"
-        android:text="Fetch" />
-</RelativeLayout>
+    tools:context=".MainActivity"/>

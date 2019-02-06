@@ -31,23 +31,15 @@ Button login;
 login.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
-        if (uname.getText().toString().equals("jasim")&& (pwd.getText().toString().equals("12345678")))
+        if ((uname.getText().toString().equals("jasim")) && (pwd.getText().toString().equals("12345678")))
 
-            {
-                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
-            }
-        else{
+        {
+            Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+            startActivity(intent);
+        } else {
             Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_LONG).show();
-
-
         }
-
-    };
-
-
-
-
-
-
+    }});
+    }
 
 }
